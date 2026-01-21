@@ -17,7 +17,6 @@ export async function mapPhotoToAlbum(userIds?: number[]): Promise<FullAlbum[]> 
         const getPhotos = await axios.get(PHOTOS_URL)
 
         const albumData = getAlbum.data.userId
-
         
 
     } catch (error) {
