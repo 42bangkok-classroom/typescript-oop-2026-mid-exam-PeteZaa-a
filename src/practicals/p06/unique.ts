@@ -8,8 +8,10 @@ export function getUniqueNumbers(arr1: number[], arr2: number[]): number[] {
   const sum2 = sum.filter((item,index) => sum.indexOf(item) === index)
   //console.log(sum2);
   
+  if (!sum) {
+    return []
+  }
   return sum2
-
   
 }
 
