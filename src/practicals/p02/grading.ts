@@ -23,7 +23,7 @@ else if (input >=50 && input < 60) {
     console.log("Grade is D");
     
 }
-else if (input > 0 && input < 50) {
+else if (input >= 0 && input < 50) {
     console.log("Grade is F");
     
 }
