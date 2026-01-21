@@ -4,8 +4,9 @@ const input = +process.argv[2]
 
 if (isNaN(input)) {
     console.log("Invalid input")
-    process.exit()
+    
 }
+else {
 
 if (input >= 80 && input <= 100) {
     console.log("A");
@@ -28,4 +29,5 @@ else if (input > 0 && input < 50) {
 }
 else {
     console.log("Invalid input");
+}
 }

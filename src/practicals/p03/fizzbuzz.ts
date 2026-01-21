@@ -2,10 +2,10 @@
 
 const input2 = +process.argv[2]
 
-if (isNaN(input2)) {
-    process.exit()
-}
+// if (isNaN(input2)) {
 
+// }
+// else {
 for (let i = 1; i <= input2; i++) {
     if (i % 15 === 0) {
         console.log("FizzBuzz")
@@ -20,3 +20,4 @@ for (let i = 1; i <= input2; i++) {
         console.log(i)   
     }
 }
+//}
