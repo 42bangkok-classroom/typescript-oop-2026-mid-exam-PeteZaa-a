@@ -4,7 +4,7 @@ const input = +process.argv[2]
 
 if (isNaN(input)) {
     console.log("Invalid input")
-
+    process.exit()
 }
 
 if (input >= 80 && input <= 100) {
