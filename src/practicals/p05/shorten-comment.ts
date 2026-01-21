@@ -8,8 +8,6 @@ function shortenComment(comment: string): string {
 
 shortenComment(comment)
 
-for (let i = 5; i <= 10; i++) {
-  console.log(comment[i]);
-  
-  
-}
+const a = comment.substring(0,10)
+
+console.log(a)
