@@ -1,4 +1,4 @@
-function getUniqueNumbers(arr1: number[], arr2: number[]): number[] {
+export function getUniqueNumbers(arr1: number[], arr2: number[]): number[] {
   // Write your code below
   const sum = (arr1.concat(arr2))
   //console.log(sum);
